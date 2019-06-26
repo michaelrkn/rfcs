@@ -373,6 +373,8 @@ More specifically recommended will be to use a separate component for each of th
 
 In the release that makes these capabilities a default, any pages mentioning the controller, or the route template, or the loading/error templates should be removed or updated to fit the new way of using components
 
+`ember g route` should generate a route with the proposed format in this RFC and an associated component.
+
 
 ## Drawbacks
 
